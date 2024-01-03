@@ -1,0 +1,63 @@
+html {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+  }
+  body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  a {
+    text-underline-offset: 2px;
+    color: #1eaedb;
+  }
+  #intro-1 {
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+  #intro-2 {
+    margin-bottom: 30px;
+    line-height: 25px;
+  }
+  #layout {
+    padding-top: 5%;
+    width: 60%;
+  }
+  .divider {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  #introWrapper {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  #info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .title {
+    font-size: 1.5rem;
+    margin-block-end: 1.2rem;
+  }
+  
+
+  .tableRow {
+    display: flex;
+    gap: 200px;
+    /* justify-content: space-between; */
+  }
+  
