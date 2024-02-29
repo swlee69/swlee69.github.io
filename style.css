@@ -41,6 +41,9 @@ html {
     padding: 10px;
     width: 100%;
   }
+  .img {
+    margin-top: 100px;
+  }
   
   #introWrapper {
     margin-top: 30px;
@@ -66,4 +69,7 @@ html {
     line-height: 10px;
     /* justify-content: space-between; */
   }
-  
+
+  #lab-link {
+    text-decoration: none;
+  }
